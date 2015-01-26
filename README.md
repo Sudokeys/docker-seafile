@@ -86,10 +86,11 @@ All the environment variables and their default values
     fcgi						false
     CCNET_IP
     SEAFILE_IP
+    SEAHUB_PORT 				8000
     CCNET_PORT					10001
-    CCNET_NAME 			    	my-seafile
     SEAFILE_PORT				12001
     FILESERVER_PORT			    8082
+    CCNET_NAME 			    	my-seafile
     EXISTING_DB 				false
     MYSQL_HOST 		    		mysql-container
     MYSQL_PORT 			    	3306
@@ -102,7 +103,6 @@ All the environment variables and their default values
     CCNET_DB_NAME 		    	ccnet-db
     SEAFILE_DB_NAME 			seafile-db
     SEAHUB_DB_NAME		    	seahub-db
-    SEAHUB_PORT 				8000
     STATIC_FILES_DIR            /opt/seafile/nginx/
 
 
